@@ -1,6 +1,6 @@
 # Pomodoro App
 
-**Live demo:** https://your-live-url.com
+**Live demo:** https://comforting-pie-33c7a1.netlify.app/
 
 A lightweight Pomodoro timer built with React, TypeScript, Vite, and Tailwind CSS. Use it to manage work sessions, breaks, and focus time with a clean, responsive interface.
 
