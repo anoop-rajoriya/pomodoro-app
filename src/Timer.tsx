@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { usePreferences } from "./PreferencesContext";
 
 const formatTime = (ms: number) => {
