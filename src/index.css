@@ -1,1 +1,53 @@
 @import "tailwindcss";
+
+@theme {
+  /* Dynamic Theme Colors (Mapped from CSS Variables) */
+  --color-main: var(--main);
+  --color-surface: var(--surface);
+  --color-bg-modal: var(--bg-modal);
+  --color-bg-input: var(--bg-input);
+  
+  --color-primary: var(--primary);
+  --color-muted: var(--muted);
+
+  /* Constant Accent Colors */
+  --color-accent-coral: #f87070;
+  --color-accent-cyan: #70f3f8;
+  --color-accent-purple: #d881f8;
+  
+  /* Fonts */
+  --font-timer: "Space Mono", monospace;
+  --font-sans: "Kumbh Sans", sans-serif;
+}
+
+/* Base Light Theme (Generated) */
+:root {
+  --main: #f2f4fe;
+  --surface: #ffffff;
+  --bg-modal: #ffffff;
+  --bg-input: #e3e8fc;
+  --primary: #161932;
+  --muted: #7a81a4;
+}
+
+/* Dark Theme (Extracted from UI) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main: #1e213f;
+    --surface: #161932;
+    --bg-modal: #ffffff;
+    --bg-input: #f2f4fe;
+    --primary: #ffffff;
+    --muted: #d7e0ff;
+  }
+}
+
+/* Optional: If you prefer manual toggling via a class instead of system preference */
+.dark {
+  --main: #1e213f;
+  --surface: #161932;
+  --bg-modal: #ffffff;
+  --bg-input: #f2f4fe;
+  --primary: #ffffff;
+  --muted: #d7e0ff;
+}
